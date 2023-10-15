@@ -1,0 +1,15 @@
+Requirement 1: Server and CLient Shall be implemented 
+               in server.py and client.py
+Requirement 2: Server shall launch from terminal using cmd
+               python server.py <port number> <key>
+Requirement 3: The server shall wait for client connection on port
+               Client will receive message, decrypt it, and print message
+Requirement 4: Client Start using cmd 
+               python client.py <server ip> <key> 
+Requirement 5: Server shall start first in terminal
+Requirement 6: Client shall be started next in other terminal
+Requirement 7: Client shall prompt user to type message of any length
+               Client shall encrypt message using specified key
+               Connect to server on IP and port
+               Send encrypted message
+               Disconnect and exit

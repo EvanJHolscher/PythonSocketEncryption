@@ -1,0 +1,20 @@
+Name: Evan Holscher
+E-mail: evanholscher@csu.fullerton.edu
+
+Setup:
+sudo apt install python-pip
+sudo pip install pycryptodome
+First Launch the Server in terminal #1
+    using cmd: python server.py <port number> <key>
+    example:   python server.py 1234 abcdefghnbfghasd
+Then Launch the Client in terminal #2
+    using cmd: python client.py <server IP> <server port> <key> 
+    where <server IP> is the IP of the server, <server port> the port on 
+    which the server is listening, and <key> is the 16-byte encryption key.
+    example: python client.py 127.0.0.1 1234 abcdefghnbfghasd
+
+    From the Client, input a message that will be encrypted and sent to 
+    the server.
+
+    After sending the message, observer the terminal that the server is 
+    running on, it should display the correct, decoded message.
